@@ -4,7 +4,7 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: retro-mike-bch-node_web_1
+      APP_HOST: kelt-app-store-bch-node_web_1
       APP_PORT: 8080
 
   web:
