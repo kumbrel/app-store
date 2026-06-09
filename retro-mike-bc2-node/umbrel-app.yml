@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: retro-mike-bc2-node
+name: BitcoinII (BC2) Node
+tagline: BitcoinII Node. This is a general node app for BitcoinII and can be used to in conjunction with mining pool software to solo mine, or just be ran standalone to help contribute to the Bitcoin II network.
+icon: https://miningpoolstats.stream/ico/bitcoinii.webp
+category: Mining Nodes
+version: "1.0.1"
+port: 5011
+description: |
+  BitcoinII Node. This is a general node app for BitcoinII and can be used to in conjunction with mining pool software to solo mine, or just be ran standalone to help contribute to the Bitcoin II network.
+
+  If you find this app useful, please consider donating
+
+  https://throne.com/retromike
+
+developer: Retro Mike
+website: http://retromiketech.com
+submitter: Retro Mike
+submission: https://github.com/TheRetroMike/BitcoinII
+repo: https://github.com/TheRetroMike/BitcoinII
+support: https://github.com/TheRetroMike/BitcoinII
+gallery:
+  - https://miningpoolstats.stream/ico/bitcoinii.webp
+releaseNotes: >-
+  2026.03.19 - Icon Fix
+  2026.01.11 - Initial Release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
