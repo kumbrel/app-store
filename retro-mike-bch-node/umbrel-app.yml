@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: retro-mike-bch-node
+name: Bitcoin Cash (BCH) Node
+tagline: Bitcoin Cash node for solo mining and network support
+icon: https://bitcoincash.org/img/green/bitcoin-cash-circle.svg
+category: bitcoin
+version: "29.0.1"
+port: 5007
+
+description: |
+  Bitcoin Cash Node.
+
+  Can be used as a standalone BCH node or connected to a mining pool software for solo mining.
+
+developer: Retro Mike
+website: http://retromiketech.com
+submitter: Retro Mike
+submission: https://github.com/TheRetroMike/bitcoin-cash
+repo: https://github.com/TheRetroMike/bitcoin-cash
+support: https://github.com/TheRetroMike/bitcoin-cash
+
+gallery:
+  - https://bitcoincash.org/img/green/bitcoin-cash-circle.svg
+
+releaseNotes: >-
+  2026.04.19 - Updated to BCH 29.0.0
+  2025.12.11 - Initial Release
+
+dependencies: []
+
+path: ""
+defaultUsername: ""
+defaultPassword: ""
