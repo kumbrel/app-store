@@ -2,6 +2,7 @@ manifestVersion: 1
 id: kelt-app-store-dcl-market-watch
 name: DCL Market Watch
 tagline: Watch Decentraland LAND and ESTATE listings
+icon: https://raw.githubusercontent.com/kumbrel/app-store/main/kelt-app-store-dcl-market-watch/icon.png
 category: Development
 version: "5.2.1"
 port: 8788
