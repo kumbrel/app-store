@@ -3,7 +3,7 @@ id: kelt-app-store-dcl-market-watch
 name: DCL Market Watch
 tagline: Watch Decentraland LAND and ESTATE listings
 category: Development
-version: "5.2.0"
+version: "5.2.1"
 port: 8788
 description: >-
   DCL Market Watch watches Decentraland LAND and ESTATE marketplace listings
