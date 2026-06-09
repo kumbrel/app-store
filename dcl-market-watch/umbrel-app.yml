@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: dcl-market-watch
+name: DCL Market Watch
+tagline: Watch Decentraland LAND and ESTATE listings
+category: Development
+version: "5.1.0"
+port: 8788
+description: >-
+  DCL Market Watch watches Decentraland LAND and ESTATE marketplace listings
+  and sends Discord notifications when new listings appear.
+developer: Kelt
+website: https://decentraland.org
+dependencies: []
+repo: https://github.com/kumbrel/app-store
+support: https://github.com/kumbrel/app-store/issues
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  Initial Umbrel app version of DCL Market Watch.
+submitter: Kelt
+submission: https://github.com/kumbrel/app-store
