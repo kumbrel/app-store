@@ -16,3 +16,4 @@ services:
     environment:
       CHECK_INTERVAL: "10"
       DISCORD_WEBHOOK_URL: ""
+      LICENSE_KEY: "e82a403b1bd3c2c02564867ef97f50840a95b2d34441eacb735f823d2cb413b3"
