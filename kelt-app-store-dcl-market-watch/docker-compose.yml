@@ -1,7 +1,7 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: dcl-market-watch_server_1
+      APP_HOST: kelt-app-store-dcl-market-watch_server_1
       APP_PORT: 8787
       PROXY_AUTH_ADD: "false"
 
