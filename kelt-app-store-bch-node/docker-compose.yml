@@ -16,11 +16,11 @@ services:
       - node
 
   node:
-    image: theretromike/nodes:bitcoincash
+    image: uphold/bitcoin-cash-node:latest
     restart: on-failure
     stop_grace_period: 1m
     volumes:
-      - ${APP_DATA_DIR}/.bitcoincash:/root/.bitcoin
+      - ${APP_DATA_DIR}/.bitcoincash:/home/bitcoin/.bitcoin
     ports:
       - 9002:9002
       - 7002:7002
