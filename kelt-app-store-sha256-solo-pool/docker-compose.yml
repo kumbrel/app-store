@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: kelt-app-store-sha256-solo-pool_web_1
+      APP_PORT: 8080
+
+  web:
+    image: python:3.12-slim
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/app:/app
+    working_dir: /app
+    command: sh -c "pip install flask requests >/tmp/pip.log 2>&1 && python app.py"
+    ports:
+      - 3333:3333
+      - 3334:3334

@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: kelt-app-store-sha256-solo-pool
+name: Kelt SHA256 Solo Pool
+tagline: Solo mining control panel for BCH and Peercoin nodes
+icon: https://raw.githubusercontent.com/kumbrel/app-store/main/kelt-app-store-sha256-solo-pool/icon.svg
+category: bitcoin
+version: "0.1.0"
+port: 8080
+description: |
+  Kelt SHA256 Solo Pool detects local BCH and Peercoin nodes and prepares solo mining endpoints.
+developer: Kelt
+website: https://github.com/kumbrel/app-store
+submitter: Kelt
+submission: https://github.com/kumbrel/app-store
+repo: https://github.com/kumbrel/app-store
+support: https://github.com/kumbrel/app-store/issues
+gallery: []
+releaseNotes: |
+  Initial node detection panel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
