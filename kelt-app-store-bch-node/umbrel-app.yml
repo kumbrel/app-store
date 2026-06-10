@@ -8,16 +8,16 @@ version: "29.0.1"
 port: 5007
 
 description: |
-  Bitcoin Cash Node.
+  Bitcoin Cash Node. FOR PI.
 
   Can be used as a standalone BCH node or connected to a mining pool software for solo mining.
 
-developer: Retro Mike
-website: http://retromiketech.com
-submitter: Retro Mike
-submission: https://github.com/TheRetroMike/bitcoin-cash
-repo: https://github.com/TheRetroMike/bitcoin-cash
-support: https://github.com/TheRetroMike/bitcoin-cash
+developer: kelt
+website: https://github.com/kumbrel/app-store
+submitter: kelt
+submission: https://github.com/kumbrel/bitcoin-cash
+repo: https://github.com/kumbrel/bitcoin-cash
+support: https://github.com/kumbrel/bitcoin-cash
 
 gallery:
   - https://bitcoincash.org/img/green/bitcoin-cash-circle.svg
