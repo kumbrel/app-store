@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: kelt-app-store-peercoin-node
+name: Peercoin (PPC) Node
+tagline: Peercoin SHA256 node for solo mining and network support
+icon: https://cryptologos.cc/logos/peercoin-ppc-logo.png
+category: bitcoin
+version: "0.15.1-kelt.1"
+port: 5012
+description: |
+  Peercoin node for Raspberry Pi / ARM64.
+
+  Peercoin uses SHA256 Proof-of-Work and Proof-of-Stake.
+developer: Kelt
+website: https://github.com/kumbrel/app-store
+submitter: Kelt
+submission: https://github.com/kumbrel/app-store
+repo: https://github.com/kumbrel/app-store
+support: https://github.com/kumbrel/app-store/issues
+gallery:
+  - https://cryptologos.cc/logos/peercoin-ppc-logo.png
+releaseNotes: |
+  Initial Kelt ARM/Pi version.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
