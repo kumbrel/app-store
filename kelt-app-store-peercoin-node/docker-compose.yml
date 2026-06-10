@@ -24,7 +24,6 @@ services:
       - 9902:9902
       - 9901:9901
     command:
-      -peercoin.conf=/data/peercoin.conf
       -datadir=/data
       -printtoconsole
       -server
