@@ -6,14 +6,10 @@ services:
       PROXY_AUTH_ADD: "false"
 
   server:
-    image: python:3.12-slim
+    image: ghcr.io/kumbrel/dcl-market-watch:5.3.0
     restart: on-failure
-    working_dir: /app
-    command: sh -c "pip install flask requests && python app.py"
     volumes:
-      - ${APP_DATA_DIR}/app:/app
       - ${APP_DATA_DIR}/data:/data
     environment:
       CHECK_INTERVAL: "10"
       DISCORD_WEBHOOK_URL: ""
-      LICENSE_KEY: "e82a403b1bd3c2c02564867ef97f50840a95b2d34441eacb735f823d2cb413b3"

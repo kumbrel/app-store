@@ -11,6 +11,7 @@ services:
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/app:/app
+      - ${APP_DATA_DIR}/config:/config
     working_dir: /app
     command: sh -c "pip install flask requests >/tmp/pip.log 2>&1 && python app.py"
     ports:
