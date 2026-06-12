@@ -1,0 +1,6 @@
+*.bak
+*.old
+*.tmp
+.env
+__pycache__/
+*.pyc
